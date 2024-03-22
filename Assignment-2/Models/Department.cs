@@ -4,6 +4,7 @@ namespace Assignment_2.Models
 {
     public class Department
     {
+        [Key]
         public int Id { get; set; }
 
         [Required]
